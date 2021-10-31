@@ -5,7 +5,7 @@ services:
     image: b4bz/homer
     #To build from source, comment previous line and uncomment below
     #build: .
-    container_name: homer
+    container_name: homerun
     volumes:
       - /your/local/assets/:/www/assets
     ports:
